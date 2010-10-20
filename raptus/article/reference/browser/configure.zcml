@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="raptus.article">
+
+    <browser:viewlet
+        for="raptus.article.core.interfaces.IArticle"
+        name="raptus.article.reference"
+        manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
+        class=".reference.Reference"
+        permission="zope.Public"
+        />
+
+</configure>

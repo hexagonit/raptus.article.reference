@@ -1,0 +1,32 @@
+# Simon Käser <skaeser@raptus.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: raptus.article\n"
+"POT-Creation-Date: 2010-01-19 12:35+0000\n"
+"PO-Revision-Date: 2010-01-11 14:03+0000\n"
+"Last-Translator: Simon Käser <skaeser@raptus.com>\n"
+"Language-Team: German <skaeser@raptus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: de\n"
+"Language-Name: Deutsch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: raptus.article\n"
+"X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
+
+#. Default: "External reference"
+#: raptus.article.reference/raptus/article/reference/extender.py:76
+msgid "label_external_reference"
+msgstr "Externe Referenz"
+
+#. Default: "Internal reference"
+#: raptus.article.reference/raptus/article/reference/extender.py:66
+msgid "label_internal_reference"
+msgstr "Interne Referenz"
+
+#. Default: "This article is a reference to ${reference}"
+#: raptus.article.reference/raptus/article/reference/browser/reference.pt:9
+msgid "message_reference"
+msgstr "Dieser Artikel ist eine Referenz auf ${reference}"

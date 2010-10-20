@@ -1,0 +1,21 @@
+<dl xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+    xmlns:tal="http://xml.zope.org/namespaces/tal"
+    xmlns:metal="http://xml.zope.org/namespaces/metal"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    class="reference portalMessage info"
+    tal:condition="view/reference_url">
+  <dt i18n:domain="plone" i18n:translate="">
+    Info
+  </dt>
+  <dd i18n:domain="raptus.article"
+      i18n:translate="message_reference">
+    This article is a reference to
+    <a href=""
+       tal:attributes="href view/reference_url;
+                       title python: view.reference and view.reference.Description() or ''"
+       i18n:name="reference"
+       tal:content="python: view.reference and view.reference.Title() or view.reference_url">
+      Reference
+    </a>
+  </dd>
+</dl>

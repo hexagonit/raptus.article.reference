@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="raptus.article">
+      
+    <include package="raptus.article.nesting" />
+    <include package="archetypes.schemaextender" />
+    
+    <five:registerPackage package="." />
+    
+    <include package=".browser" />
+    
+    <adapter
+      factory=".extender.ArticleExtender"
+      name="raptus.article.reference" />
+      
+    <adapter
+      factory=".reference.Reference" />
+
+</configure>
