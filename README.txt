@@ -1,15 +1,17 @@
 Introduction
 ============
 
-You have sites where you will list some internal or external references but you are
-not able to present it in a nice way. With raptus.article.reference you can do it. 
+You have a site where you would like to list some internal or external references but you are
+not able to present them in a nice way. With raptus.article.reference you can do it. 
 
 The following features for raptus.article are provided by this package:
 
+Fields
+------
     * Provides support for internal or external references on nested articles
 
-Dependencies:
-
+Dependencies
+------------
     * archetypes.schemaextender
     * raptus.article.nesting
 
@@ -54,15 +56,13 @@ reference press "save". The link on the specific article displayed by the compon
 listing sub articles now refers to the specified reference. The following packages
 provide components respecting the reference setting:
 
-* `raptus.article.listings <http://pypi.python.org/pypi/raptus.article.listings>`_
-* `raptus.article.contentfader <http://pypi.python.org/pypi/raptus.article.contentfader>`_
-* `raptus.article.contentflow <http://pypi.python.org/pypi/raptus.article.contentflow>`_
-* `raptus.article.randomcontent <http://pypi.python.org/pypi/raptus.article.randomcontent>`_
+    * `raptus.article.listings <http://pypi.python.org/pypi/raptus.article.listings>`_
+    * `raptus.article.contentfader <http://pypi.python.org/pypi/raptus.article.contentfader>`_
+    * `raptus.article.contentflow <http://pypi.python.org/pypi/raptus.article.contentflow>`_
+    * `raptus.article.randomcontent <http://pypi.python.org/pypi/raptus.article.randomcontent>`_
 
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 

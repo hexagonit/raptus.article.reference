@@ -10,14 +10,16 @@ Code overview
 
 Interfaces
 ----------
-file: interfaces.py
 
+file: interfaces.py
+```````````````````
 - IReference (Provider for internal and external references on an article)
     - getReferenceURL - method (Returns the URL or path of the reference)
     - getReference - method (Returns the referenced object, if available)
     
 Schema extender
 ---------------
-file: extender.py
 
+file: extender.py
+`````````````````
 - ArticleExtender - for IArticle
